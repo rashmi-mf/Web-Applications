@@ -1,0 +1,108 @@
+/* Variable Declaration starts From here*/
+
+$GREY_COLOR: #EDEFF7;
+$ORANGE_COLOR: #FF572C;
+
+/* Mixins starts From here*/
+@mixin size($width, $height: $width) {
+	width: $width;
+	height: $height;
+}
+
+@mixin back-color($col_name) {
+    background-color: $col_name;
+}
+
+@mixin text-color($col_name) {
+    color: $col_name;
+}
+
+@mixin text-size($size) {
+    font-size: $size;
+}
+
+@mixin font-weightage($wt) {
+    font-weight: $wt;
+}
+
+@mixin radius-border($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	border-radius: $radius;
+}
+
+.search-component {
+    @include size(null, 172px);
+}
+
+.search-result-container {
+    @include size(null, auto);
+}
+
+.login-btn-bg {
+    background: url("components/img/loginbtn-bg.png") no-repeat 2px 5px;
+    padding: 13px 30px !important;
+    letter-spacing: 0.8px;
+    @include size(86px, 39px);
+    @include text-size(10px);
+}
+
+.footer-logo {
+    zoom: 65%;
+}
+
+.header-font-m {
+    @include text-size(13px);
+}
+
+.font-size-s {
+    @include text-size(11px);
+}
+
+.font-size-xs {
+    @include text-size(10px);
+}
+
+.font-size-tile-s {
+    letter-spacing: 0.5px;
+    @include text-size(12px);
+}
+
+.font-lightweight {
+    @include font-weightage(600);
+}
+
+.crossIcon-font-s {
+    @include text-size(18px);
+}
+
+.textbox-size {
+    @include size(null, 50px);
+}
+
+.three-dot-bg {
+    background: url("components/img/three-dots.png") no-repeat 5px 15px;
+    @include size(46px, 35px);
+}
+
+.star-rating-color {
+    @include text-color($ORANGE_COLOR);
+}
+
+.search-result-bgcolor {
+    @include back-color($GREY_COLOR);
+}
+
+.search-types {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    border: 1px solid #adb5bd85;
+    @include radius-border(2px);
+    @include size(121px, 39px);
+}
+
+.dark-bg {
+    @include back-color(#000);
+}

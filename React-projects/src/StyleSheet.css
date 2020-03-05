@@ -1,0 +1,68 @@
+/* Variable Declaration starts From here*/
+/* Mixins starts From here*/
+.search-component {
+  height: 172px; }
+
+.search-result-container {
+  height: auto; }
+
+.login-btn-bg {
+  background: url("components/img/loginbtn-bg.png") no-repeat 2px 5px;
+  padding: 13px 30px !important;
+  letter-spacing: 0.8px;
+  width: 86px;
+  height: 39px;
+  font-size: 10px; }
+
+.footer-logo {
+  zoom: 65%; }
+
+.header-font-m {
+  font-size: 13px; }
+
+.font-size-s {
+  font-size: 11px; }
+
+.font-size-xs {
+  font-size: 10px; }
+
+.font-size-tile-s {
+  letter-spacing: 0.5px;
+  font-size: 12px; }
+
+.font-lightweight {
+  font-weight: 600; }
+
+.crossIcon-font-s {
+  font-size: 18px; }
+
+.textbox-size {
+  height: 50px; }
+
+.three-dot-bg {
+  background: url("components/img/three-dots.png") no-repeat 5px 15px;
+  width: 46px;
+  height: 35px; }
+
+.star-rating-color {
+  color: #FF572C; }
+
+.search-result-bgcolor {
+  background-color: #EDEFF7; }
+
+.search-types {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  border: 1px solid #adb5bd85;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  width: 121px;
+  height: 39px; }
+
+.dark-bg {
+  background-color: #000; }
+
+/*# sourceMappingURL=StyleSheet.css.map */
